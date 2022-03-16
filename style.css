@@ -1,0 +1,86 @@
+*{
+ margin: 0px   
+}
+
+body{
+    background-color: blueviolet;
+    padding-bottom: 75px;
+}
+.banner{
+    background-image: url("stonehedge.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+img{
+    width: 25%;
+    height: 500px;
+    object-fit: cover;
+    height: 300px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-family: 'Montserrat';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.377);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.person{
+    background-color: mediumpurple;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 16px;
+    overflow: hidden;
+    font-size: 0%;
+}
+
+.personinfo{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+h3{
+    margin-bottom: 25px;
+}
+
+p{
+    font-family: 'Montserrat';
+    color: white;
+    margin-bottom: 25px;  
+    font-size: 16px;
+}
+
+a{
+    font-family: 'Montserrat';
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: .2s;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+a:hover{
+    border: 2px solid #633d89;
+}
+

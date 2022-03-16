@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding-top: 50px;
+    text-align: center;
+    background-image: url("forest.jpg");
+    background-size: cover;
+}
+
+h2{
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Special Elite', cursive;
+display: inline-block;
+background-image: linear-gradient(to top,black, maroon, orange);
+background-size: auto 200%;
+background-position: bottom;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+text-align: center;
+font-size: 60px;
+transition: 1s;
+}
+
+h2:hover{
+    background-position: top;
+}
+
+h3{
+    font-family: 'Rye', cursive;
+    color: white;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.info{
+    float: left;
+    padding: 20px;
+    width: 40%;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    backdrop-filter: blur(5px);
+    
+}
+
+.infor{
+    float: right;
+    padding: 20px;
+    width: 40%;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    backdrop-filter: blur(5px);
+    
+}
+
+.info img{
+    width: 230px;
+    object-fit: cover;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    backdrop-filter: blur(5px);
+}
+
+.infor img{
+    width: 230px;
+    object-fit: cover;
+    margin: auto;
+}
+
+#c{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}

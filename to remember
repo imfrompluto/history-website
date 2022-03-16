@@ -1,0 +1,2 @@
+to set strong tags (display: block) at the centre, you have to give them margin: auto 
+to set weak tags (display:inline-block) at the centre, you need to give to their parent text-align: center 

@@ -1,0 +1,77 @@
+*{
+margin: 0;
+}
+
+body{
+    background-color: darkgreen;
+}
+
+img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+h2{
+    color: gold;
+    font-family: "Playfair Display";
+    text-align: center;
+    padding: 15px;
+}
+
+h3{
+    color: darkkhaki;
+    text-align: center;
+
+}
+
+ul{
+    color: white;
+    font-family: "sans-serif";
+}
+
+p{
+    font-family: "sans-serif";
+    background-color: #bbf9b1;
+    border-radius: 3px;
+    width: 80%;
+    margin: auto;
+    padding: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wife img{
+
+    width: 30%;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.wife p{
+    float: right;
+    margin-right: calc((100% - 30% - 500px)/2);
+    margin-top: 115px;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.wife{
+    width: calc(100% - 60px);
+    margin: auto;
+}
+
+.back{
+    border: 2px solid black;
+    color: black;
+    background-color: #bbf9b1;
+    float: right;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 70px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}

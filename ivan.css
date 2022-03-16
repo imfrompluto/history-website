@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.card{
+    width: calc(100% / 3);
+    float: left;
+    background-color: blue;
+    height: 500px;
+    position: relative;
+    overflow: hidden;    
+}
+
+.card img{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: whitesmoke;
+    bottom: 0;
+    font-family: "Estonia";
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 25px;
+    transform: translateY(calc(100% - 76px));
+    transition: .5s;
+}
+
+.info p{
+    font-size: 35px;
+}
+
+.info h3{
+    margin-bottom: 20px;
+}
+.card:hover .info{
+    transform: translateY(0);
+}
+
+.back{
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    float: right;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 70px;
+    line-height: 35px;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: "Estonia";
+    font-weight: bold;
+}
